@@ -1,0 +1,11 @@
+class employ:
+    def __init__(self):
+        print("employ created")
+    def __del__(self):
+        print("destructur created")
+def creat():
+    print("making object")
+    obj= employ()
+    return obj
+obj= creat()
+print("programs end")
